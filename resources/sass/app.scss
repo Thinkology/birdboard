@@ -1,11 +1,18 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-
 // Variables
 @import 'variables';
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+@import "~tailwindcss/base";
 
-// Bulma
-//@import '~bulma/bulma';
+@import "~tailwindcss/components";
+
+@import "~tailwindcss/utilities";
+
+.section{
+  @apply .px-4;
+}
+
+.button{
+  @apply .bg-blue-400 .rounded .text-white .text-sm .py-2 .px-5;
+  box-shadow: 0 2px 7px 0 #b0eaff;
+}
+

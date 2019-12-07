@@ -1,12 +1,5 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Create a project</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
-    {{--<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>--}}
-</head>
+@extends ('layouts.app')
+@section('content')
 <body>
 
     <form method="POST" action="/projects">
@@ -33,10 +26,10 @@
         <div class="field">
             <div class="control">
                 <button type="submit" class="button is-link">Create Project</button>
+                <a href="/projects">Cancel</a>
             </div>
         </div>
 
 
     </form>
-</body>
-</html>
+@endsection
