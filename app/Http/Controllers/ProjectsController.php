@@ -25,13 +25,13 @@ class ProjectsController extends Controller
         );
 
         /*auth with middleware*/
-        auth()->user()->projects()->create($attributes);
+        $project = auth()->user()->projects()->create($attributes);
 
 
 //    persist
 //        Project::create($attributes);
 //    redirect
-        return redirect('/projects');
+        return redirect($project->path());
     }
 
     public function show(Project $project)
