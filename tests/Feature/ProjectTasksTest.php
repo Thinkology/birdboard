@@ -9,9 +9,9 @@ use Tests\TestCase;
 
 class ProjectTasksTest extends TestCase
 {
-        use WithFaker, RefreshDatabase;
+//        use WithFaker, RefreshDatabase;
 
-//    use WithFaker;
+    use WithFaker;
 
 
     /** @test */
