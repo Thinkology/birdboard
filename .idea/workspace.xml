@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81b44b57-60f0-43c8-a52d-f6bf0adc4681" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/Setup/ProjectFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProjectTasksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProjectTasksController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_30_130134_create_projects_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_11_30_130134_create_projects_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ProjectTasksTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ProjectTasksTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,20 +57,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProjectTasksController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectTasksController.php">
+      <file leaf-file-name="ProjectFactory.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Setup/ProjectFactory.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="680">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="e#113#129#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ManageProjectsTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php">
+      <file leaf-file-name="ProjectTasksTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/ProjectTasksTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state relative-caret-position="632">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="e#33#49#0#PHP" expanded="true" />
               </folding>
@@ -85,11 +81,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectTasksTest.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/Feature/ProjectTasksTest.php">
+      <file leaf-file-name="ManageProjectsTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="-366">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
+              <folding>
+                <element signature="e#33#49#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,8 +97,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>csrf</find>
-      <find>have</find>
       <find>comple</find>
       <find>data</find>
       <find>the</find>
@@ -128,6 +125,8 @@
       <find>redirect</find>
       <find>403</find>
       <find>patch</find>
+      <find>only_the</find>
+      <find>can</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -150,7 +149,6 @@
         <option value="$PROJECT_DIR$/tailwind.config.js" />
         <option value="$PROJECT_DIR$/resources/views/projects/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/projects/card.blade.php" />
-        <option value="$PROJECT_DIR$/tests/TestCase.php" />
         <option value="$PROJECT_DIR$/tests/Feature/ProjectTasks.php" />
         <option value="$PROJECT_DIR$/app/Project.php" />
         <option value="$PROJECT_DIR$/tests/Unit/ProjectTest.php" />
@@ -158,7 +156,6 @@
         <option value="$PROJECT_DIR$/database/factories/TaskFactory.php" />
         <option value="$PROJECT_DIR$/database/factories/ProjectFactory.php" />
         <option value="$PROJECT_DIR$/tests/Unit/TaskTest.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/ProjectTasksTest.php" />
         <option value="$PROJECT_DIR$/app/Task.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_11_30_130134_create_projects_table.php" />
@@ -169,12 +166,15 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/projects/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/projects/show.blade.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" />
         <option value="$PROJECT_DIR$/app/Policies/ProjectsPolicy.php" />
         <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Policies/ProjectPolicy.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectTasksController.php" />
+        <option value="$PROJECT_DIR$/tests/TestCase.php" />
+        <option value="$PROJECT_DIR$/tests/Setup/ProjectFactory.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/ProjectTasksTest.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" />
       </list>
     </option>
   </component>
@@ -312,8 +312,13 @@
             <path>
               <item name="birdboard" type="b2602c69:ProjectViewProjectNode" />
               <item name="birdboard" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Policies" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="birdboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="birdboard" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Setup" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -322,7 +327,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="test&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tests/Feature/ProjectTasksTest.php&#10;projectta&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectTasksController.php&#10;authse&#9;null&#9;null&#10;projectpo&#9;null&#9;null&#10;show&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/views/projects/show.blade.php&#10;app&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/sass/app.scss&#10;we&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/routes/web.php&#10;sh&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/views/projects/show.blade.php&#10;manage&#9;null&#9;null&#10;managepro&#9;RUN_CONFIGURATION&#9;ManageProjectsTest (PHPUnit)&#10;create&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/database/migrations/2019_11_30_130134_create_projects_table.php&#10;cre&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/database/migrations/2019_12_10_152248_create_tasks_table.php&#10;show.&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/views/projects/show.blade.php&#10;us&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/User.php&#10;user.&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/User.php&#10;controll&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectsController.php&#10;ефыл&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Task.php&#10;proje&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tests/Feature/ProjectTasksTest.php&#10;taskte&#9;null&#9;null&#10;task.&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/database/factories/TaskFactory.php&#10;userfa&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/database/factories/UserFactory.php&#10;projectfa&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/database/factories/ProjectFactory.php&#10;project&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectTasksController.php&#10;proj&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tests/Feature/ProjectTasksTest.php&#10;зкщоусеефыее&#9;RUN_CONFIGURATION&#9;ProjectTasksTest.a_task_can_ba_updated (PHPUnit)&#10;web&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/routes/web.php&#10;fa&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/database/factories/ProjectFactory.php&#10;task&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tests/Feature/ProjectTasksTest.php&#10;tastte&#9;null&#9;null&#10;зкщоусееф&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tests/Feature/ProjectTasksTest.php&#10;зкщоусе&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectTasksController.php&#10;projects&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectsController.php&#10;projecttask&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectTasksController.php&#10;projectc&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectsController.php&#10;project tas&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectTasksController.php&#10;taskfa&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/database/factories/TaskFactory.php&#10;contro&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectTasksController.php&#10;projectcon&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectsController.php&#10;phpuni&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/phpunit.xml&#10;.env&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/.env&#10;Projec&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectsController.php&#10;css&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/sass/app.scss&#10;2019_12_10_152248_create_tasks_table&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/database/migrations/2019_12_10_152248_create_tasks_table.php&#10;projecttaskscon&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectTasksController.php&#10;web.p&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/routes/web.php&#10;index&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/views/projects/index.blade.php&#10;app.s&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/sass/app.scss&#10;штвуч&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/views/projects/index.blade.php&#10;tailw&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tailwind.config.js" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tests/Feature/ManageProjectsTest.php&#10;Task.&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Task.php&#10;test&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tests/Feature/ProjectTasksTest.php&#10;projectta&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectTasksController.php&#10;authse&#9;null&#9;null&#10;projectpo&#9;null&#9;null&#10;show&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/views/projects/show.blade.php&#10;app&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/sass/app.scss&#10;we&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/routes/web.php&#10;sh&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/views/projects/show.blade.php&#10;manage&#9;null&#9;null&#10;managepro&#9;RUN_CONFIGURATION&#9;ManageProjectsTest (PHPUnit)&#10;create&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/database/migrations/2019_11_30_130134_create_projects_table.php&#10;cre&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/database/migrations/2019_12_10_152248_create_tasks_table.php&#10;show.&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/views/projects/show.blade.php&#10;us&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/User.php&#10;user.&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/User.php&#10;controll&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectsController.php&#10;ефыл&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Task.php&#10;proje&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tests/Feature/ProjectTasksTest.php&#10;taskte&#9;null&#9;null&#10;task.&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/database/factories/TaskFactory.php&#10;userfa&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/database/factories/UserFactory.php&#10;projectfa&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/database/factories/ProjectFactory.php&#10;project&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectTasksController.php&#10;proj&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tests/Feature/ProjectTasksTest.php&#10;зкщоусеефыее&#9;RUN_CONFIGURATION&#9;ProjectTasksTest.a_task_can_ba_updated (PHPUnit)&#10;web&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/routes/web.php&#10;fa&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/database/factories/ProjectFactory.php&#10;task&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tests/Feature/ProjectTasksTest.php&#10;tastte&#9;null&#9;null&#10;зкщоусееф&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tests/Feature/ProjectTasksTest.php&#10;зкщоусе&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectTasksController.php&#10;projects&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectsController.php&#10;projecttask&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectTasksController.php&#10;projectc&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectsController.php&#10;project tas&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectTasksController.php&#10;taskfa&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/database/factories/TaskFactory.php&#10;contro&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectTasksController.php&#10;projectcon&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectsController.php&#10;phpuni&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/phpunit.xml&#10;.env&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/.env&#10;Projec&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectsController.php&#10;css&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/sass/app.scss&#10;2019_12_10_152248_create_tasks_table&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/database/migrations/2019_12_10_152248_create_tasks_table.php&#10;projecttaskscon&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectTasksController.php&#10;web.p&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/routes/web.php&#10;index&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/views/projects/index.blade.php&#10;app.s&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/sass/app.scss&#10;штвуч&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/views/projects/index.blade.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -331,6 +336,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\birdboard\tests\Setup" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -344,12 +354,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.ProjectTasksTest.only_the_owner_of_a_project_may_add_tasks">
+  <component name="RunManager" selected="PHPUnit.ManageProjectsTest.an_authenticated_user_cannot_update_the_projects_of_others">
     <configuration name="ManageProjectsTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\ManageProjectsTest" file="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" scope="Class" />
     </configuration>
+    <configuration name="ManageProjectsTest.a_user_can_create_a_project" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ManageProjectsTest" file="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" method="a_user_can_create_a_project" scope="Method" />
+    </configuration>
     <configuration name="ManageProjectsTest.a_user_can_update_a_project" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\ManageProjectsTest" file="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" method="a_user_can_update_a_project" scope="Method" />
+    </configuration>
+    <configuration name="ManageProjectsTest.a_user_can_view_their_project" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ManageProjectsTest" file="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" method="a_user_can_view_their_project" scope="Method" />
     </configuration>
     <configuration name="ManageProjectsTest.an_authenticated_user_cannot_update_the_projects_of_others" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\ManageProjectsTest" file="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" method="an_authenticated_user_cannot_update_the_projects_of_others" scope="Method" />
@@ -357,26 +373,20 @@
     <configuration name="ManageProjectsTest.an_authenticated_user_cannot_view_the_projects_of_others" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\ManageProjectsTest" file="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" method="an_authenticated_user_cannot_view_the_projects_of_others" scope="Method" />
     </configuration>
-    <configuration name="ProjectTasksTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ProjectTasksTest" file="$PROJECT_DIR$/tests/Feature/ProjectTasksTest.php" scope="Class" />
-    </configuration>
-    <configuration name="ProjectTasksTest.only_the_owner_of_a_project_may_add_tasks" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ProjectTasksTest" file="$PROJECT_DIR$/tests/Feature/ProjectTasksTest.php" method="only_the_owner_of_a_project_may_add_tasks" scope="Method" />
-    </configuration>
     <list>
+      <item itemvalue="PHPUnit.ManageProjectsTest.a_user_can_create_a_project" />
       <item itemvalue="PHPUnit.ManageProjectsTest" />
       <item itemvalue="PHPUnit.ManageProjectsTest.a_user_can_update_a_project" />
+      <item itemvalue="PHPUnit.ManageProjectsTest.a_user_can_view_their_project" />
       <item itemvalue="PHPUnit.ManageProjectsTest.an_authenticated_user_cannot_update_the_projects_of_others" />
-      <item itemvalue="PHPUnit.ProjectTasksTest" />
-      <item itemvalue="PHPUnit.ProjectTasksTest.only_the_owner_of_a_project_may_add_tasks" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.ProjectTasksTest.only_the_owner_of_a_project_may_add_tasks" />
-        <item itemvalue="PHPUnit.ProjectTasksTest" />
-        <item itemvalue="PHPUnit.ManageProjectsTest" />
         <item itemvalue="PHPUnit.ManageProjectsTest.an_authenticated_user_cannot_update_the_projects_of_others" />
+        <item itemvalue="PHPUnit.ManageProjectsTest.a_user_can_view_their_project" />
         <item itemvalue="PHPUnit.ManageProjectsTest.a_user_can_update_a_project" />
+        <item itemvalue="PHPUnit.ManageProjectsTest.a_user_can_create_a_project" />
+        <item itemvalue="PHPUnit.ManageProjectsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -406,44 +416,44 @@
       <workItem from="1576076109149" duration="1837000" />
       <workItem from="1576158474163" duration="5861000" />
       <workItem from="1576323261395" duration="21313000" />
-      <workItem from="1576589207262" duration="12123000" />
+      <workItem from="1576589207262" duration="17888000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ManageProjectsTest_a_user_can_update_a_project - 2019.12.19 at 17h 30m 27s.xml">
+    <history-entry file="ManageProjectsTest_a_user_can_create_a_project - 2019.12.20 at 16h 02m 06s.xml">
+      <configuration name="ManageProjectsTest.a_user_can_create_a_project" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ManageProjectsTest_a_user_can_update_a_project - 2019.12.20 at 16h 03m 30s.xml">
       <configuration name="ManageProjectsTest.a_user_can_update_a_project" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="ManageProjectsTest_a_user_can_update_a_project - 2019.12.19 at 18h 05m 34s.xml">
+    <history-entry file="ManageProjectsTest_a_user_can_update_a_project - 2019.12.20 at 16h 03m 41s.xml">
       <configuration name="ManageProjectsTest.a_user_can_update_a_project" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="ManageProjectsTest_a_user_can_update_a_project - 2019.12.19 at 18h 06m 11s.xml">
+    <history-entry file="ManageProjectsTest_a_user_can_update_a_project - 2019.12.20 at 16h 05m 31s.xml">
       <configuration name="ManageProjectsTest.a_user_can_update_a_project" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="ManageProjectsTest_an_authenticated_user_cannot_update_the_projects_of_others - 2019.12.19 at 18h 07m 30s.xml">
+    <history-entry file="ManageProjectsTest_a_user_can_update_a_project - 2019.12.20 at 16h 05m 40s.xml">
+      <configuration name="ManageProjectsTest.a_user_can_update_a_project" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ManageProjectsTest_a_user_can_update_a_project - 2019.12.20 at 16h 06m 24s.xml">
+      <configuration name="ManageProjectsTest.a_user_can_update_a_project" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ManageProjectsTest_a_user_can_view_their_project - 2019.12.20 at 16h 08m 24s.xml">
+      <configuration name="ManageProjectsTest.a_user_can_view_their_project" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ManageProjectsTest_a_user_can_view_their_project - 2019.12.20 at 16h 08m 32s.xml">
+      <configuration name="ManageProjectsTest.a_user_can_view_their_project" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ManageProjectsTest_a_user_can_view_their_project - 2019.12.20 at 16h 09m 35s.xml">
+      <configuration name="ManageProjectsTest.a_user_can_view_their_project" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ManageProjectsTest_an_authenticated_user_cannot_update_the_projects_of_others - 2019.12.20 at 16h 12m 23s.xml">
       <configuration name="ManageProjectsTest.an_authenticated_user_cannot_update_the_projects_of_others" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ManageProjectsTest_an_authenticated_user_cannot_update_the_projects_of_others - 2019.12.19 at 18h 07m 37s.xml">
-      <configuration name="ManageProjectsTest.an_authenticated_user_cannot_update_the_projects_of_others" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ManageProjectsTest_an_authenticated_user_cannot_update_the_projects_of_others - 2019.12.19 at 18h 15m 29s.xml">
-      <configuration name="ManageProjectsTest.an_authenticated_user_cannot_update_the_projects_of_others" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ManageProjectsTest - 2019.12.20 at 09h 44m 05s.xml">
-      <configuration name="ManageProjectsTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ProjectTasksTest - 2019.12.20 at 09h 44m 21s.xml">
-      <configuration name="ProjectTasksTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ProjectTasksTest - 2019.12.20 at 09h 45m 03s.xml">
-      <configuration name="ProjectTasksTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ProjectTasksTest_only_the_owner_of_a_project_may_add_tasks - 2019.12.20 at 09h 45m 38s.xml">
-      <configuration name="ProjectTasksTest.only_the_owner_of_a_project_may_add_tasks" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98976000" />
+    <option name="totallyTimeSpent" value="104741000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -488,9 +498,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/98c07ef9-8a15-4b24-9e22-fce5fce3658d/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -613,13 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/TestCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -676,13 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/MakesHttpRequests.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="304" column="20" selection-start-line="304" selection-start-column="20" selection-end-line="304" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -704,13 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Task.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -828,20 +814,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php">
+    <entry file="file://$PROJECT_DIR$/tests/Setup/ProjectFactory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="680">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#113#129#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/TestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Task.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/MakesHttpRequests.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="304" column="20" selection-start-line="304" selection-start-column="20" selection-end-line="304" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/ProjectTasksTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="e#33#49#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/ProjectTasksTest.php">
+    <entry file="file://$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+        <state relative-caret-position="-366">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#33#49#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
