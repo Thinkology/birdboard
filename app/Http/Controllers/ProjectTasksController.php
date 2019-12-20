@@ -12,11 +12,8 @@ class ProjectTasksController extends Controller
     {
 
         /*only_the_owner_of_a_project_may_add_tasks*/
-        if (auth()->user()->isNot($project->owner)) {
-            abort(403);
-        }
+        $this->authorize('update', $project);
 
-        //    validate
         request()->validate(['body' => 'required']);
 
         $project->addTask(request('body'));
@@ -25,12 +22,7 @@ class ProjectTasksController extends Controller
 
     public function update(Project $project, Task $task)
     {
-        /*only_the_owner_of_a_project_may_add_tasks*/
-        if (auth()->user()->isNot($project->owner)) {
-            abort(403);
-        }
-
-        //    validate
+        $this->authorize('update', $task->project);
         request()->validate(['body' => 'required']);
 
         $task->update([
