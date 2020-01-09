@@ -14,29 +14,38 @@ class ProjectsController extends Controller
         return view('projects.index', compact('projects'));
     }
 
+    /**
+     * Persist a new project
+     *
+     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
+     */
     public function store()
     {
 
-//    validate
-        $attributes = request()->validate([
-                'title' => 'required',
-                'description' => 'required',
-                'notes' => 'min:3'
-            ]
-        );
-
         /*auth with middleware*/
-        $project = auth()->user()->projects()->create($attributes);
+        $project = auth()->user()->projects()->create($this->validateRequest());
 
         return redirect($project->path());
     }
 
+    public function edit(Project $project)
+    {
+        return view('projects.edit', compact('project'));
+    }
+
+    /**
+     * Update the project
+     *
+     * @param Project $project
+     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
+     * @throws \Illuminate\Auth\Access\AuthorizationException
+     */
     public function update(Project $project)
     {
 
         $this->authorize('update', $project);
 
-        $project->update(request(['notes']));
+        $project->update($this->validateRequest());
 
         return redirect($project->path());
     }
@@ -52,5 +61,18 @@ class ProjectsController extends Controller
     public function create()
     {
         return view('projects.create');
+    }
+
+    /**
+     * @return array
+     */
+    protected function validateRequest()
+    {
+        return request()->validate([
+                'title' => 'required',
+                'description' => 'required',
+                'notes' => 'min:3'
+            ]
+        );
     }
 }
