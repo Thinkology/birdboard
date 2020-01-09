@@ -64,14 +64,16 @@ class ProjectsController extends Controller
     }
 
     /**
+     * Validate the request attributes
+     *
      * @return array
      */
     protected function validateRequest()
     {
         return request()->validate([
-                'title' => 'required',
-                'description' => 'required',
-                'notes' => 'min:3'
+                'title' => 'sometimes|required',
+                'description' => 'sometimes| required',
+                'notes' => 'nullable'
             ]
         );
     }

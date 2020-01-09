@@ -43,6 +43,16 @@
                     <textarea name="notes" class="card w-full mb-2" style="min-height: 200px;" placeholder="Add notes here...">{{$project->notes}}</textarea>
                     <button type="submit" class="button">Save</button>
                 </form>
+
+                @if ($errors->any())
+                    <div class="field mt-6">
+                        @foreach($errors->all() as $error)
+                            <li class="text-sm text-red">{{$error}}</li>
+                        @endforeach
+                    </div>
+                @endif
+
+
             </div>
             <div class="lg:w-1/4 px-3">
                 @include ('projects.card')
