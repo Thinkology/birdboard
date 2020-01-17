@@ -22,8 +22,10 @@
                                 @csrf
 
                                 <div class="flex">
-                                    <input type="text" value="{{ $task->body }}" name="body" class="w-full {{$task->completed ? 'text-gray-600' : ''}}">
-                                    <input type="checkbox" name="completed" onclick="this.form.submit()" {{$task->completed ? 'checked' : ''}} >
+                                    <input type="text" value="{{ $task->body }}" name="body"
+                                           class="w-full {{$task->completed ? 'text-gray-600' : ''}}">
+                                    <input type="checkbox" name="completed"
+                                           onclick="this.form.submit()" {{$task->completed ? 'checked' : ''}} >
                                 </div>
                             </form>
                         </div>
@@ -36,11 +38,12 @@
                     </div>
                 </div>
                 {{--General Notes--}}
-                <form  action="{{$project->path()}}" method="POST">
+                <form action="{{$project->path()}}" method="POST">
                     @csrf
                     @method('PATCH')
                     <h2 class="text-lg text-gray-600 font-normal mb-3">General Notes</h2>
-                    <textarea name="notes" class="card w-full mb-2" style="min-height: 200px;" placeholder="Add notes here...">{{$project->notes}}</textarea>
+                    <textarea name="notes" class="card w-full mb-2" style="min-height: 200px;"
+                              placeholder="Add notes here...">{{$project->notes}}</textarea>
                     <button type="submit" class="button">Save</button>
                 </form>
 
@@ -54,9 +57,13 @@
 
 
             </div>
-            <div class="lg:w-1/4 px-3">
+            <div class="lg:w-1/4 px-3 pt-10">
                 @include ('projects.card')
+
+                @include ('projects.activity.card')
+
             </div>
+
         </div>
     </main>
 
