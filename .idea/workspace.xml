@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81b44b57-60f0-43c8-a52d-f6bf0adc4681" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/RecordsActivity.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Activity.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Activity.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Observers/ProjectObserver.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Observers/TaskObserver.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Project.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Project.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Task.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_09_134928_create_activities_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_09_134928_create_activities_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/activity/completed_task.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/activity/completed_task.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/activity/created.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/activity/created_project.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/activity/created_task.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/activity/created_task.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/activity/incompleted_task.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/activity/incompleted_task.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/activity/updated.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/activity/updated_project.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/card.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/card.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ProjectTasksTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ProjectTasksTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/TriggerActivityTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/TriggerActivityTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -75,56 +57,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ManageProjectsTest.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ManageProjectsTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="61" column="42" lean-forward="true" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
+            <state relative-caret-position="17">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="24" column="68" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RecordsActivity.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/RecordsActivity.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/projects/show.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="73" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="confirm.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProjectsController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProjectsController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="663">
+              <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -133,7 +79,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>i</find>
       <find>edit</find>
       <find>validate</find>
       <find>notes</find>
@@ -163,6 +108,7 @@
       <find>csrf</find>
       <find>method</find>
       <find>@method</find>
+      <find>a_user_can</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -221,12 +167,12 @@
         <option value="$PROJECT_DIR$/resources/views/projects/activity/created_task.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/projects/activity/incompleted_task.blade.php" />
         <option value="$PROJECT_DIR$/tests/Unit/ActivityTest.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" />
         <option value="$PROJECT_DIR$/app/RecordsActivity.php" />
         <option value="$PROJECT_DIR$/resources/views/projects/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/projects/card.blade.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" />
       </list>
     </option>
   </component>
@@ -337,7 +283,7 @@
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-1899" />
     <option name="width" value="1905" />
     <option name="height" value="894" />
@@ -367,7 +313,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="index.b&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/views/projects/index.blade.php&#10;rec&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/RecordsActivity.php&#10;Proje&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectsController.php&#10;web&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/routes/web.php&#10;manage&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tests/Feature/ManageProjectsTest.php&#10;records&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/RecordsActivity.php&#10;activities&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/database/migrations/2020_01_09_134928_create_activities_table.php&#10;Activity&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Activity.php&#10;Activitytest&#9;null&#9;null&#10;екшпп&#9;RUN_CONFIGURATION&#9;TriggerActivityTest.creating_a_new_task (PHPUnit)&#10;projectO&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Observers/ProjectObserver.php&#10;taskob&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Observers/TaskObserver.php&#10;Зкщ&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Project.php&#10;щиыук&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Observers/ProjectObserver.php&#10;зкщоу&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Project.php&#10;екш&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tests/Feature/TriggerActivityTest.php&#10;trigger&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tests/Feature/TriggerActivityTest.php&#10;created_tas&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/views/projects/activity/created_task.blade.php&#10;comple&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/views/projects/activity/completed_task.blade.php&#10;ефыл&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Observers/TaskObserver.php&#10;Activi&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Activity.php&#10;task.php&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Task.php&#10;project&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Project.php&#10;create_ac&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/database/migrations/2020_01_09_134928_create_activities_table.php&#10;Projec&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Project.php&#10;show&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/views/projects/show.blade.php&#10;card&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/views/projects/card.blade.php&#10;AppSe&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Providers/AppServiceProvider.php&#10;TaskOb&#9;null&#9;null&#10;Ac&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tests/Feature/ActivityFeedTest.php&#10;Task&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Task.php&#10;tasktes&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tests/Unit/TaskTest.php&#10;цу&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/routes/web.php&#10;proje&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectTasksController.php&#10;taskfac&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/database/factories/TaskFactory.php&#10;Con&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectTasksController.php&#10;task&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Task.php&#10;obser&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Observers/ProjectObserver.php&#10;ac&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tests/Feature/ActivityFeedTest.php&#10;фззыу&#9;null&#9;null&#10;servicepro&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Providers/AuthServiceProvider.php&#10;Activity.ph&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tests/Feature/ActivityFeedTest.php&#10;createac&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/database/migrations/2020_01_09_134928_create_activities_table.php&#10;project.ph&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Project.php&#10;for&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/views/projects/form.blade.php&#10;edi&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/views/projects/edit.blade.php&#10;create.&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/views/projects/create.blade.php&#10;projects&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectsController.php&#10;Task.&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Task.php&#10;test&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tests/Feature/ProjectTasksTest.php" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tests/Feature/ManageProjectsTest.php&#10;index.b&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/views/projects/index.blade.php&#10;rec&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/RecordsActivity.php&#10;Proje&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectsController.php&#10;web&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/routes/web.php&#10;manage&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tests/Feature/ManageProjectsTest.php&#10;records&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/RecordsActivity.php&#10;activities&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/database/migrations/2020_01_09_134928_create_activities_table.php&#10;Activity&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Activity.php&#10;Activitytest&#9;null&#9;null&#10;екшпп&#9;RUN_CONFIGURATION&#9;TriggerActivityTest.creating_a_new_task (PHPUnit)&#10;projectO&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Observers/ProjectObserver.php&#10;taskob&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Observers/TaskObserver.php&#10;Зкщ&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Project.php&#10;щиыук&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Observers/ProjectObserver.php&#10;зкщоу&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Project.php&#10;екш&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tests/Feature/TriggerActivityTest.php&#10;trigger&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tests/Feature/TriggerActivityTest.php&#10;created_tas&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/views/projects/activity/created_task.blade.php&#10;comple&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/views/projects/activity/completed_task.blade.php&#10;ефыл&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Observers/TaskObserver.php&#10;Activi&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Activity.php&#10;task.php&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Task.php&#10;project&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Project.php&#10;create_ac&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/database/migrations/2020_01_09_134928_create_activities_table.php&#10;Projec&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Project.php&#10;show&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/views/projects/show.blade.php&#10;card&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/views/projects/card.blade.php&#10;AppSe&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Providers/AppServiceProvider.php&#10;TaskOb&#9;null&#9;null&#10;Ac&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tests/Feature/ActivityFeedTest.php&#10;Task&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Task.php&#10;tasktes&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tests/Unit/TaskTest.php&#10;цу&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/routes/web.php&#10;proje&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectTasksController.php&#10;taskfac&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/database/factories/TaskFactory.php&#10;Con&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectTasksController.php&#10;task&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Task.php&#10;obser&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Observers/ProjectObserver.php&#10;ac&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tests/Feature/ActivityFeedTest.php&#10;фззыу&#9;null&#9;null&#10;servicepro&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Providers/AuthServiceProvider.php&#10;Activity.ph&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/tests/Feature/ActivityFeedTest.php&#10;createac&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/database/migrations/2020_01_09_134928_create_activities_table.php&#10;project.ph&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Project.php&#10;for&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/views/projects/form.blade.php&#10;edi&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/views/projects/edit.blade.php&#10;create.&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/resources/views/projects/create.blade.php&#10;projects&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Http/Controllers/ProjectsController.php&#10;Task.&#9;FILE&#9;file://C:/Users/User/Documents/birdboard/app/Task.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -398,12 +344,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.ManageProjectsTest.a_user_can_delete_a_project">
+  <component name="RunManager" selected="PHPUnit.ManageProjectsTest.guests_cannot_delete_projects">
     <configuration name="ActivityTest.it_has_user" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Unit\ActivityTest" file="$PROJECT_DIR$/tests/Unit/ActivityTest.php" method="it_has_user" scope="Method" />
     </configuration>
     <configuration name="ManageProjectsTest.a_user_can_delete_a_project" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\ManageProjectsTest" file="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" method="a_user_can_delete_a_project" scope="Method" />
+    </configuration>
+    <configuration name="ManageProjectsTest.guests_cannot_delete_projects" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ManageProjectsTest" file="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" method="guests_cannot_delete_projects" scope="Method" />
     </configuration>
     <configuration name="TaskTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Unit\TaskTest" file="$PROJECT_DIR$/tests/Unit/TaskTest.php" scope="Class" />
@@ -411,26 +360,23 @@
     <configuration name="TriggerActivityTest.creating_a_new_task" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\TriggerActivityTest" file="$PROJECT_DIR$/tests/Feature/TriggerActivityTest.php" method="creating_a_new_task" scope="Method" />
     </configuration>
-    <configuration name="TriggerActivityTest.updating_a_project" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\TriggerActivityTest" file="$PROJECT_DIR$/tests/Feature/TriggerActivityTest.php" method="updating_a_project" scope="Method" />
-    </configuration>
     <configuration name="tests" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner directory="$PROJECT_DIR$/tests" />
     </configuration>
     <list>
       <item itemvalue="PHPUnit.TriggerActivityTest.creating_a_new_task" />
-      <item itemvalue="PHPUnit.TriggerActivityTest.updating_a_project" />
       <item itemvalue="PHPUnit.tests" />
       <item itemvalue="PHPUnit.ActivityTest.it_has_user" />
       <item itemvalue="PHPUnit.ManageProjectsTest.a_user_can_delete_a_project" />
+      <item itemvalue="PHPUnit.ManageProjectsTest.guests_cannot_delete_projects" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.ManageProjectsTest.guests_cannot_delete_projects" />
         <item itemvalue="PHPUnit.ManageProjectsTest.a_user_can_delete_a_project" />
         <item itemvalue="PHPUnit.ActivityTest.it_has_user" />
         <item itemvalue="PHPUnit.tests" />
         <item itemvalue="PHPUnit.TriggerActivityTest.creating_a_new_task" />
-        <item itemvalue="PHPUnit.TriggerActivityTest.updating_a_project" />
       </list>
     </recent_temporary>
   </component>
@@ -470,14 +416,13 @@
       <workItem from="1579505589279" duration="7000" />
       <workItem from="1579520244426" duration="28453000" />
       <workItem from="1580121314986" duration="5403000" />
-      <workItem from="1580128747972" duration="6002000" />
+      <workItem from="1580128747972" duration="6053000" />
+      <workItem from="1580215565987" duration="2355000" />
+      <workItem from="1580365748760" duration="1198000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ActivityTest_it_has_user - 2020.01.27 at 16h 12m 53s.xml">
-      <configuration name="ActivityTest.it_has_user" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="ManageProjectsTest_a_user_can_delete_a_project - 2020.01.27 at 16h 17m 09s.xml">
       <configuration name="ManageProjectsTest.a_user_can_delete_a_project" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -505,9 +450,12 @@
     <history-entry file="ManageProjectsTest_a_user_can_delete_a_project - 2020.01.27 at 16h 47m 50s.xml">
       <configuration name="ManageProjectsTest.a_user_can_delete_a_project" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="ManageProjectsTest_guests_cannot_delete_projects - 2020.01.28 at 15h 54m 21s.xml">
+      <configuration name="ManageProjectsTest.guests_cannot_delete_projects" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196049000" />
+    <option name="totallyTimeSpent" value="199653000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -519,20 +467,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1899" y="0" width="1905" height="894" extended-state="0" />
+    <frame x="-1899" y="0" width="1905" height="894" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32947233" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info id="npm" order="1" side_tool="true" />
       <window_info anchor="right" id="Run" order="4" weight="0.32791328" />
-      <window_info id="Terminal" order="3" sideWeight="0.49867725" visible="true" weight="0.24878049" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="5" visible="true" weight="0.20271003" />
+      <window_info id="npm" order="1" side_tool="true" />
+      <window_info active="true" id="Terminal" order="3" sideWeight="0.49867725" visible="true" weight="0.24878049" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="5" weight="0.20271003" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" weight="0.32899728" />
-      <window_info anchor="bottom" id="Find" order="5" />
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50132275" side_tool="true" weight="0.24878049" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.3994709" />
@@ -543,6 +490,7 @@
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="10" weight="0.32947233" />
+      <window_info anchor="bottom" id="Find" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -834,16 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <element signature="e#30#43#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="61" column="42" lean-forward="true" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -884,15 +822,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/RecordsActivity.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="850">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="663">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>
